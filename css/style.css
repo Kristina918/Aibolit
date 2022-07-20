@@ -1,0 +1,97 @@
+@import url(https://allfont.ru/allfont.css?fonts=schoolbook);
+
+@font-face {
+  font-family: helveticaneuecyr;
+  font-display: swap;
+  src: url("../fonts/helveticaneuecyr-bolditalic.woff2") format("woff2"), url("../fonts/helveticaneuecyr-bolditalic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: helveticaneuecyr;
+  font-display: swap;
+  src: url("../fonts/helveticaneuecyr-blackitalic.woff2") format("woff2"), url("../fonts/helveticaneuecyr-blackitalic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: helveticaneuecyr;
+  font-display: swap;
+  src: url("../fonts/helveticaneuecyr-heavyitalic.woff2") format("woff2"), url("../fonts/helveticaneuecyr-heavyitalic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: helveticaneuecyr;
+  font-display: swap;
+  src: url("../fonts/helveticaneuecyr-lightitalic.woff2") format("woff2"), url("../fonts/helveticaneuecyr-lightitalic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "SchoolBook", arial;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-main-area {
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.no-webp .header-logo{
+  background: url(../img/logo.png) center no-repeat; }
+
+.header-logo {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.menu-list {
+  display: flex;
+  font-size: 20px;
+}
+
+.menu-item {
+  margin-right: 80px;
+}
+
+.menu-link {
+  color: #C3B9B5;
+}
+
+.svg-map-dims {
+  margin-right: 20px;
+  width: 20px;
+  height: 30px;
+}
+
+.location {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  color: #FFC59E;
+}
+
+.webp .header-logo{ background: url(../img/logo.webp) center no-repeat; }
