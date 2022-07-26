@@ -1,37 +1,5 @@
 @import url(https://allfont.ru/allfont.css?fonts=schoolbook);
 
-@font-face {
-  font-family: helveticaneuecyr;
-  font-display: swap;
-  src: url("../fonts/helveticaneuecyr-bolditalic.woff2") format("woff2"), url("../fonts/helveticaneuecyr-bolditalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: helveticaneuecyr;
-  font-display: swap;
-  src: url("../fonts/helveticaneuecyr-blackitalic.woff2") format("woff2"), url("../fonts/helveticaneuecyr-blackitalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: helveticaneuecyr;
-  font-display: swap;
-  src: url("../fonts/helveticaneuecyr-heavyitalic.woff2") format("woff2"), url("../fonts/helveticaneuecyr-heavyitalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: helveticaneuecyr;
-  font-display: swap;
-  src: url("../fonts/helveticaneuecyr-lightitalic.woff2") format("woff2"), url("../fonts/helveticaneuecyr-lightitalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
 .tabs {
   display: flex;
   justify-content: space-between;
@@ -88,6 +56,7 @@
 }
 
 .window-tab {
+  height: 786px;
   position: relative;
 }
 
@@ -121,10 +90,8 @@
 }
 
 .tab6-img {
-  width: 875px;
-  height: 617px;
-  margin-bottom: 150px;
-  margin-top: 80px;
+  width: 772px;
+  height: 571px;
 }
 
 .tab3-img {
@@ -137,9 +104,9 @@
 }
 
 .tab5-img {
-  width: 714px;
-  margin-right: 100px;
-  margin-top: 90px;
+  margin-top: 80px;
+  max-width: 701px;
+  max-height: 658px;
 }
 
 .tab-content h2 {
@@ -147,10 +114,6 @@
   font-size: 80px;
   line-height: 110px;
   margin-bottom: 50px;
-}
-
-.h2-tab-margin {
-  margin-top: 80px;
 }
 
 .tab-content .sign-up {
@@ -280,7 +243,7 @@
 }
 
 body {
-  font-family: "SchoolBook", arial;
+  font-family: "Merriweather", normal;
   font-size: 20px;
   font-weight: 400;
 }
