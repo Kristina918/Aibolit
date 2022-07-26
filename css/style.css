@@ -32,6 +32,248 @@
   font-style: normal;
 }
 
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1921px;
+  margin: 0 auto;
+  margin-top: 130px;
+  margin-bottom: 150px;
+  height: 819px;
+}
+
+.tab-buttons {
+  margin-left: 140px;
+  margin-right: 231px;
+}
+
+.tab-buttons label {
+  display: block;
+  display: flex;
+  align-items: center;
+  min-width: 40px;
+  min-height: 40px;
+  justify-content: center;
+  padding: 5px;
+  margin-bottom: 60px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #C3B9B5;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  border-left: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 3px solid transparent;
+}
+
+.tab-buttons label:hover {
+  border-top: 4px solid #EDE9E8;
+  border-radius: 50%;
+  border-left: 4px solid #EDE9E8;
+  border-bottom: 4px solid #EDE9E8;
+  border-right: 3px solid #EDE9E8;
+  color: black;
+}
+
+.windows {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.window-tab,
+.tab-hidden {
+  display: none;
+}
+
+.window-tab {
+  position: relative;
+}
+
+#i1:checked ~ .windows #w1,
+#i2:checked ~ .windows #w2,
+#i3:checked ~ .windows #w3,
+#i4:checked ~ .windows #w4,
+#i5:checked ~ .windows #w5,
+#i6:checked ~ .windows #w6 {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+}
+
+#i1:checked ~ .tab-buttons [for=i1],
+#i2:checked ~ .tab-buttons [for=i2],
+#i3:checked ~ .tab-buttons [for=i3],
+#i4:checked ~ .tab-buttons [for=i4],
+#i5:checked ~ .tab-buttons [for=i5],
+#i6:checked ~ .tab-buttons [for=i6] {
+  border-top: 4px solid black;
+  border-radius: 50%;
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
+  border-right: 3px solid #EDE9E8;
+  color: black;
+}
+
+.tab-img {
+  max-width: 833.59px;
+}
+
+.tab6-img {
+  width: 875px;
+  height: 617px;
+  margin-bottom: 150px;
+  margin-top: 80px;
+}
+
+.tab3-img {
+  margin-right: 225px;
+}
+
+.tab4-img {
+  margin-bottom: 120px;
+  margin-right: 80px;
+}
+
+.tab5-img {
+  width: 714px;
+  margin-right: 100px;
+  margin-top: 90px;
+}
+
+.tab-content h2 {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 110px;
+  margin-bottom: 50px;
+}
+
+.h2-tab-margin {
+  margin-top: 80px;
+}
+
+.tab-content .sign-up {
+  background: #FFC59E;
+  box-shadow: 0px 4px 20px #FFC59E;
+  border-radius: 33.5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 77px;
+  padding-left: 77px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.social-media-block {
+  display: flex;
+  margin-top: 220px;
+}
+
+.social-media-block li a {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #C3B9B5;
+  border-radius: 50%;
+}
+
+.social-media-block li a:hover {
+  background-color: #59443F;
+}
+
+.social-media-block li {
+  margin-right: 50px;
+}
+
+.social-media-block li a i {
+  color: #FFFFFF;
+}
+
+.phone {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #59443F;
+}
+
+.service {
+  position: relative;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  background: #FFFEFE;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(79, 79, 79, 0.5);
+}
+
+.service a {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 220px;
+}
+
+.services-block {
+  max-width: 1352px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: repeat(4, 220px);
+  grid-template-columns: repeat(4, 320px);
+  gap: 24px;
+}
+
+.services {
+  margin-bottom: 150px;
+}
+
+.service-title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.number-of-services {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.service-content img {
+  width: 110px;
+  height: 95px;
+}
+
+.service-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.service:hover {
+  border: 1px solid;
+}
+
+.svg-icon-dims {
+  fill: #FFC59E;
+}
+
+.service:hover .svg-icon-dims {
+  fill: #59443F;
+}
+
 * {
   margin: 0;
   padding: 0;
