@@ -1,3 +1,123 @@
+@font-face {
+  font-family: FuturaNewBold;
+  font-display: swap;
+  src: url("../fonts/FuturaNewBold-Obl.woff2") format("woff2"), url("../fonts/FuturaNewBold-Obl.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SchoolBook";
+  font-display: swap;
+  src: url("../fonts/1601629501dh.woff2") format("woff2"), url("../fonts/1601629501dh.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura New";
+  font-display: swap;
+  src: url("../fonts/FuturaNewBook-Obl.woff2") format("woff2"), url("../fonts/FuturaNewBook-Obl.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura New";
+  font-display: swap;
+  src: url("../fonts/FuturaNewBold-Reg.woff2") format("woff2"), url("../fonts/FuturaNewBold-Reg.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: FuturaNewBook;
+  font-display: swap;
+  src: url("../fonts/FuturaNewBook-Reg.woff2") format("woff2"), url("../fonts/FuturaNewBook-Reg.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: FuturaNewDemi;
+  font-display: swap;
+  src: url("../fonts/FuturaNewDemi-Obl.woff2") format("woff2"), url("../fonts/FuturaNewDemi-Obl.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: FuturaNewExtraBold;
+  font-display: swap;
+  src: url("../fonts/FuturaNewExtraBold-Obl.woff2") format("woff2"), url("../fonts/FuturaNewExtraBold-Obl.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: FuturaNewExtraBold;
+  font-display: swap;
+  src: url("../fonts/FuturaNewExtraBold-Reg.woff2") format("woff2"), url("../fonts/FuturaNewExtraBold-Reg.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: FuturaNewDemi;
+  font-display: swap;
+  src: url("../fonts/FuturaNewDemi-Reg.woff2") format("woff2"), url("../fonts/FuturaNewDemi-Reg.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: FuturaNewHeavy;
+  font-display: swap;
+  src: url("../fonts/FuturaNewHeavy-Obl.woff2") format("woff2"), url("../fonts/FuturaNewHeavy-Obl.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: FuturaNewHeavy;
+  font-display: swap;
+  src: url("../fonts/FuturaNewHeavy-Reg.woff2") format("woff2"), url("../fonts/FuturaNewHeavy-Reg.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: FuturaNewMedium;
+  font-display: swap;
+  src: url("../fonts/FuturaNewMedium-Obl.woff2") format("woff2"), url("../fonts/FuturaNewMedium-Obl.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: FuturaNewLight;
+  font-display: swap;
+  src: url("../fonts/FuturaNewLight-Reg.woff2") format("woff2"), url("../fonts/FuturaNewLight-Reg.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: FuturaNewLight;
+  font-display: swap;
+  src: url("../fonts/FuturaNewLight-Obl.woff2") format("woff2"), url("../fonts/FuturaNewLight-Obl.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: FuturaNewMedium;
+  font-display: swap;
+  src: url("../fonts/FuturaNewMedium-Reg.woff2") format("woff2"), url("../fonts/FuturaNewMedium-Reg.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 .header-main-area {
   max-width: 1920px;
   margin: 0 auto;
@@ -76,6 +196,10 @@
   border-right: 3px solid transparent;
 }
 
+.tab-content {
+  max-width: 55%;
+}
+
 .tab-buttons label:hover {
   border-top: 4px solid #EDE9E8;
   border-radius: 50%;
@@ -125,30 +249,25 @@
   color: black;
 }
 
-.tab-img {
-  max-width: 833.59px;
-}
-
 .tab6-img {
-  width: 772px;
-  height: 571px;
-}
-
-.tab3-img {
-  margin-right: 225px;
+  max-width: 49%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .tab5-img {
-  margin-top: 80px;
-  max-width: 701px;
-  max-height: 658px;
+  max-width: 44%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .tab-content h2 {
   font-weight: 400;
   font-size: 80px;
   line-height: 110px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .tab-content .sign-up {
@@ -294,6 +413,7 @@
 }
 
 .info-on-company p {
+  font-family: "Futura New";
   max-width: 480px;
   font-weight: 400;
   font-size: 20px;
@@ -304,7 +424,8 @@
 }
 
 .info-on-company a {
-  font-weight: 900;
+  font-family: "Futura New";
+  font-weight: 700;
   font-size: 20px;
   line-height: 20px;
   color: #FFC59E;
@@ -363,19 +484,113 @@
   color: #ffffff;
 }
 
+.help-for-pets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 1100px;
+  position: relative;
+}
+
+.help-for-pets-bg {
+  background-color: #FFFEFE;
+  margin-bottom: 40px;
+}
+
+.help-for-pets-info1 {
+  font-weight: 700;
+  font-size: 144px;
+  line-height: 110px;
+  color: #59443F;
+  margin-bottom: 25px;
+}
+
+.help-for-pets-info2 {
+  font-family: "Futura New";
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 110px;
+  color: #080606;
+}
+
+.help-for-pets p {
+  width: 716px;
+}
+
+.help-for-pets img {
+  position: absolute;
+  left: 52%;
+  top: 60%;
+}
+
+.reasons-grid {
+  display: grid;
+  min-width: 100%;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 70px;
+  -moz-column-gap: 94px;
+       column-gap: 94px;
+}
+
+.reasons-block h3 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #080606;
+  margin-bottom: 105px;
+}
+
+.reasons-content h3 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #080606;
+  margin-bottom: 40px;
+}
+
+.reasons-info {
+  display: flex;
+  align-items: center;
+}
+
+.reasons-info li img {
+  max-width: 80px;
+}
+
+.reasons-info li:last-child {
+  max-width: 318px;
+  font-family: "Futura New";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #59443F;
+}
+
+.reasons-info li:first-child {
+  margin-right: 50px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #59443F;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: "Merriweather", normal;
+  font-family: "SchoolBook";
   font-size: 20px;
   font-weight: 400;
+  background-color: #FFFEFE;
 }
 
 .container {
-  max-width: 1460px;
+  max-width: 1840px;
   margin: 0 auto;
 }
 
@@ -385,6 +600,15 @@ li {
 
 a {
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.w47 {
+  max-width: 64%;
 }
 
 .webp .header-logo { background: url(../img/logo.webp) center no-repeat; }
