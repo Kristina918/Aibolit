@@ -534,8 +534,14 @@
        column-gap: 94px;
 }
 
+.reasons-block {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 .reasons-block h3 {
-  text-align: center;
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
@@ -570,7 +576,8 @@
 }
 
 .reasons-info li:first-child {
-  margin-right: 50px;
+  margin-left: 50px;
+  margin-right: 70px;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
