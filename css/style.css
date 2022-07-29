@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: "Futura New";
+  font-family: "Futura New c";
   font-display: swap;
   src: url("../fonts/FuturaNewBook-Obl.woff2") format("woff2"), url("../fonts/FuturaNewBook-Obl.woff") format("woff");
   font-weight: 400;
@@ -31,7 +31,7 @@
 }
 
 @font-face {
-  font-family: FuturaNewBook;
+  font-family: "Futura New";
   font-display: swap;
   src: url("../fonts/FuturaNewBook-Reg.woff2") format("woff2"), url("../fonts/FuturaNewBook-Reg.woff") format("woff");
   font-weight: 400;
@@ -524,6 +524,10 @@
   top: 60%;
 }
 
+.reasons {
+  margin-bottom: 310px;
+}
+
 .reasons-grid {
   display: grid;
   min-width: 100%;
@@ -584,6 +588,116 @@
   color: #59443F;
 }
 
+.app-block {
+  background: #FFC59E;
+}
+
+.app-content-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 1080px;
+  position: relative;
+}
+
+.link-to-appstore img {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 10px;
+}
+
+.img-dog {
+  position: absolute;
+  top: 313px;
+  right: 378px;
+}
+
+.img-screen {
+  z-index: 1;
+}
+
+.app-content h3 {
+  font-family: "SchoolBook";
+  font-size: 80px;
+  line-height: 110px;
+  color: #FFFFFF;
+  font-weight: 400;
+  max-width: 826px;
+  margin-bottom: 43px;
+}
+
+.app-content p {
+  font-family: "Futura New";
+  font-size: 30px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.contacts-block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 1080px;
+}
+
+ul.list-of-contacts li a img {
+  width: 25px;
+  height: 25px;
+  margin-right: 33px;
+}
+
+.list-of-contacts li {
+  max-width: 318px;
+  margin-bottom: 23px;
+}
+
+.list-of-contacts h3 {
+  font-family: "SchoolBook";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #080606;
+  margin-bottom: 25px;
+}
+
+ul.list-of-contacts li a {
+  display: flex;
+  font-family: "Futura New";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #59443F;
+}
+
+ul.list-of-contacts li:last-child a {
+  pointer-events: none;
+}
+
+.contacts-block-title {
+  font-family: "SchoolBook";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #080606;
+  margin-bottom: 70px;
+}
+
+.list-of-contacts {
+  margin-bottom: 48px;
+}
+
+.i4ewOd-pzNkMb-haAclf {
+  display: none;
+}
+
+.map-item {
+  margin-top: 106px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -612,10 +726,6 @@ a {
 img {
   max-width: 100%;
   height: auto;
-}
-
-.w47 {
-  max-width: 64%;
 }
 
 .webp .header-logo { background: url(../img/logo.webp) center no-repeat; }
