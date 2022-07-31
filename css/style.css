@@ -250,7 +250,8 @@
 }
 
 .tab6-img {
-  max-width: 49%;
+  max-width: 910px;
+  max-height: 610px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -698,6 +699,107 @@ ul.list-of-contacts li:last-child a {
   margin-top: 106px;
 }
 
+.footer {
+  background-color: #59443F;
+}
+
+.footer-content {
+  min-height: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-list ul {
+  max-width: 192px;
+}
+
+.footer-list ul li a {
+  font-family: "Futura New";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.clinic-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "SchoolBook";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 46px;
+  color: #FFFFFF;
+  margin-left: 22px;
+}
+
+.clinic-name span {
+  font-family: "Futura New";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.logo-footer {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.no-webp .logo-img {
+  background-image: url(../img/logo.png); }
+
+.logo-img {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 68%;
+  height: 90px;
+  width: 90px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+
+.footer-left-block {
+  min-width: 60%;
+}
+
+.social-media-block-footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.social-media-block-footer li a {
+  background-color: #FFFFFF;
+}
+
+.social-media-block-footer li a:hover {
+  background-color: rgb(216, 216, 216);
+}
+
+.social-media-block-footer li a i {
+  color: #59443F;
+}
+
+.footer-right-block a.email-link1,
+a.email-link2 {
+  font-family: "Futura New";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -729,3 +831,5 @@ img {
 }
 
 .webp .header-logo { background: url(../img/logo.webp) center no-repeat; }
+
+.webp .logo-img { background-image: url(../img/logo.webp); }
