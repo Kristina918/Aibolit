@@ -353,14 +353,6 @@ img {
   color: black;
 }
 
-.tab6-img {
-  max-width: 910px;
-  max-height: 610px;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
 .tab-content h2 {
   font-weight: 400;
   font-size: 80px;
@@ -1052,13 +1044,14 @@ a.email-link2 {
   }
 
   .window-tab img {
+    position: absolute;
     max-width: 45%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
+    right: 25px;
+    bottom: 66px;
   }
 
   .window-tab {
+    position: relative;
     height: 500px;
   }
 
@@ -1151,12 +1144,188 @@ a.email-link2 {
     max-width: 640px;
   }
 
+  .container {
+    max-width: 640px;
+  }
+
   .header-menu {
     display: none;
   }
 
   .menu-btn {
     display: block;
+  }
+
+  .tab-content h2 {
+    font-size: 48px;
+  }
+
+  .tabs {
+    max-width: 640px;
+    margin: 53px auto 53px;
+  }
+
+  .swiper {
+    width: 480px;
+  }
+
+  .swiper-container {
+    width: 580px;
+  }
+
+  .help-for-pets p {
+    width: 540px;
+  }
+
+  .help-for-pets-info1 {
+    font-size: 105px;
+  }
+
+  .help-for-pets-info2 {
+    font-size: 57px;
+  }
+
+  .img-screen {
+    max-width: 29%;
+  }
+
+  .reasons-grid {
+    min-width: 100%;
+  }
+
+  .footer-left-block {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  .svg-map-dims {
+    margin-right: 3px;
+  }
+
+  .header-main-area {
+    max-width: 320px;
+  }
+
+  .container {
+    max-width: 300px;
+  }
+
+  .services-block {
+    grid-template-rows: repeat(16, 220px);
+    grid-template-columns: repeat(1, 12.125em);
+    gap: 25px;
+  }
+
+  .window-tab img {
+    display: none;
+  }
+
+  .swiper {
+    width: 156px;
+  }
+
+  .swiper-container {
+    width: 256px;
+  }
+
+  .help-for-pets p {
+    width: 287px;
+  }
+
+  .help-for-pets-info2 {
+    font-size: 31px;
+    line-height: 31px;
+  }
+
+  .help-for-pets-info1 {
+    font-size: 59px;
+  }
+
+  .map-item iframe {
+    display: none;
+  }
+
+  .reasons-info {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .reasons-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer-list {
+    flex-direction: column;
+  }
+
+  .application-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .link-to-appstore img {
+    margin-left: 10px;
+  }
+
+  .logo-footer {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .help-for-pets img {
+    left: 8%;
+    bottom: 0;
+  }
+
+  .img-screen {
+    display: none;
+  }
+
+  .app-content h3 {
+    text-align: center;
+  }
+
+  .contacts-block {
+    min-height: 968px;
+  }
+
+  .clinic-name {
+    margin-top: 20px;
+  }
+
+  .tab-content {
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tab-content h2 {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .windows {
+    flex: 1;
+    padding-right: 10px;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .social-media-block li {
+    margin-left: 20px;
+  }
+
+  .help-for-pets {
+    min-height: 700px;
+  }
+
+  .reasons-block h3 {
+    text-align: center;
   }
 }
 
