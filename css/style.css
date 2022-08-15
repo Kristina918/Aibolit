@@ -1140,6 +1140,10 @@ a.email-link2 {
 }
 
 @media (max-width: 965px) {
+  .img-screen {
+    display: none;
+  }
+
   .header-main-area {
     max-width: 640px;
   }
@@ -1273,10 +1277,6 @@ a.email-link2 {
   .help-for-pets img {
     left: 8%;
     bottom: 0;
-  }
-
-  .img-screen {
-    display: none;
   }
 
   .app-content h3 {
