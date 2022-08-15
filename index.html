@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://use.fontawesome.com/90d4640e44.js?_v=20220815145835"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js?_v=20220815145835"></script>
+    <script src="https://use.fontawesome.com/90d4640e44.js?_v=20220815151232"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js?_v=20220815151232"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Manrope:wght@200;300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap&_v=20220815145835" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20220815145835"/>
-    <link rel="stylesheet" href="css/style.min.css?_v=20220815145835">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Manrope:wght@200;300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap&_v=20220815151232" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20220815151232"/>
+    <link rel="stylesheet" href="css/style.min.css?_v=20220815151232">
     <title>Главная</title>
 </head>
 <body>
@@ -115,7 +115,14 @@
       </div>
     </div>
   </div>
-    
+  <script>
+$inputs = $('.tabs').find('input');
+setInterval(function(){
+     $next = $inputs.filter(":checked").next('input');
+    if ($next.length) {$next.prop('checked', true);}
+    else {$inputs.first().prop('checked', true);}
+},  5000);
+  </script>   
     <div class="services container">
     <div class="services-block">
     </div>
@@ -285,6 +292,6 @@
         </div>
     </div>
 </footer>
-    <script src="js/app.min.js?_v=20220815145835"></script>
+    <script src="js/app.min.js?_v=20220815151232"></script>
 </body>
 </html>
